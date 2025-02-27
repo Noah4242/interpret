@@ -1,0 +1,30 @@
+// Test 1: Basic Arithmetic
+print 1 + 2 * 3 - 4 / 2; // Expected output: 5
+
+// Test 2: Variables
+var x = 10;
+print x; // Expected output: 10
+x = x + 5;
+print x; // Expected output: 15
+
+// Test 3: If-Else
+var num = 4;
+if (num > 2) {
+  print "Greater than 2"; // Expected output
+} else {
+  print "Less or equal to 2";
+}
+
+// Test 4: While Loop
+var i = 0;
+while (i < 5) {
+  print i; // Expected output: 0, 1, 2, 3, 4
+  i = i + 1;
+}
+
+// Test 5: Functions
+fun greet(name) {
+  print "Hello, " + name + "!";
+}
+
+greet("Lox"); // Expected output: Hello, Lox!
